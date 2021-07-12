@@ -270,5 +270,645 @@
         }
       ]
     }
+  ],
+  "featuredProducts": [
+    {
+      "id": 1,
+      "name": "Banana",
+      "cost": 30,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/banana.jpg",
+      "available": true,
+      "fact": "Bananas are a healthy source of fiber, potassium, vitamin B6, vitamin C, and various antioxidants and phytonutrients."
+    },
+    {
+      "id": 2,
+      "name": "Kiwi",
+      "cost": 60,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/kiwi.jpg",
+      "available": true,
+      "fact": "It is particularly rich in vitamin C and vitamin K"
+    },
+    {
+      "id": 3,
+      "name": "Broccoli",
+      "cost": 50,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/broccoli.jpg",
+      "available": true,
+      "fact": "Broccoli is a good source of fibre and protein, and contains iron, potassium, calcium, selenium and magnesium as well as the vitamins A, C, E, K and a good array of B vitamins including folic acid."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt facere iste omnis vitae? Beatae id ratione sint sunt veritatis. Adipisci blanditiis commodi, consequatur explicabo impedit ipsa iusto necessitatibus nobis non omnis, placeat porro quibusdam quisquam repellendus reprehenderit tempora velit voluptatibus.",
+      "imageUrl": "assets/img/e-market/client.png"
+    },
+    {
+      "id": 2,
+      "name": "Samantha J",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt facere iste omnis vitae? Beatae id ratione sint sunt veritatis. Adipisci blanditiis commodi, consequatur explicabo impedit ipsa iusto necessitatibus nobis non omnis.",
+      "imageUrl": "assets/img/e-market/client-2.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur deleniti dolores error et, eum ex excepturi explicabo in incidunt iure magnam, minima modi neque nulla placeat quisquam quo recusandae sunt, temporibus vel voluptas voluptate voluptates voluptatibus voluptatum! Aspernatur cumque, doloremque ducimus earum nostrum quia tenetur? Iusto, quas, sunt.",
+      "publishedBy": "Purilo",
+      "publishedOn": "28 December 2020",
+      "imageUrl": "assets/img/e-market/blog/blog-5.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At maxime nemo quae tenetur unde, voluptates",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ducimus laboriosam magni quasi rerum sed! Accusamus, dolorum, hic? Aut delectus distinctio dolorem dolores ex facilis magni minima recusandae sapiente similique.",
+      "publishedBy": "Purilo",
+      "publishedOn": "25 November 2020",
+      "imageUrl": "assets/img/e-market/blog/blog-6.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, id.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ducimus laboriosam magni quasi rerum sed! Accusamus, dolorum, hic? Aut delectus distinctio dolorem dolores ex facilis magni minima recusandae sapiente similique.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ducimus laboriosam magni quasi rerum sed! Accusamus, dolorum, hic? Aut delectus distinctio dolorem dolores ex facilis magni minima recusandae sapiente similique.",
+      "publishedBy": "Purilo",
+      "publishedOn": "31 October 2020",
+      "imageUrl": "assets/img/e-market/blog/blog-7.jpg"
+    }
+  ],
+  "fruits": [
+    {
+      "id": "f1",
+      "name": "Banana",
+      "cost": 30,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/banana.jpg"
+    },
+    {
+      "id": "f2",
+      "name": "Apricot",
+      "cost": 70,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/apricot.jpg"
+    },
+    {
+      "id": "f3",
+      "name": "Blacberry",
+      "cost": 34,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/blackberry.jpg"
+    },
+    {
+      "id": "f4",
+      "name": "Blueberry",
+      "cost": 76,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/blueberry.jpg"
+    },
+    {
+      "id": "f5",
+      "name": "Cherry",
+      "cost": 20,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/cherry.jpg"
+    },
+    {
+      "id": "f6",
+      "name": "Grapes",
+      "cost": 70,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/grape.jpg"
+    },
+    {
+      "id": "f7",
+      "name": "Guava",
+      "cost": 60,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/guava.jpg"
+    },
+    {
+      "id": "f8",
+      "name": "Kiwi",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/kiwi.jpg"
+    },
+    {
+      "id": "f9",
+      "name": "Lychee",
+      "cost": 90,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/lychee.jpg"
+    },
+    {
+      "id": "f10",
+      "name": "Water Melon",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/watermelon.jpg"
+    },
+    {
+      "id": "f11",
+      "name": "Rock Melon",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/melon-rock.jpg"
+    },
+    {
+      "id": "f12",
+      "name": "Orange",
+      "cost": 35,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/orange.jpg"
+    },
+    {
+      "id": "f13",
+      "name": "Peach",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/peach.jpg"
+    },
+    {
+      "id": "f14",
+      "name": "Pear",
+      "cost": 55,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/pear.jpg"
+    },
+    {
+      "id": "f15",
+      "name": "Pineapple",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/pineapple.jpg"
+    },
+    {
+      "id": "f16",
+      "name": "Plum",
+      "cost": 86,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/plum.jpg"
+    },
+    {
+      "id": "f17",
+      "name": "Pomegranate",
+      "cost": 75,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/pomegranate.jpg"
+    },
+    {
+      "id": "f18",
+      "name": "Rasberry",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/raspberry.jpg"
+    },
+    {
+      "id": "f19",
+      "name": "Apple",
+      "cost": 100,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/apple.jpg"
+    },
+    {
+      "id": "f20",
+      "name": "Strawberry",
+      "cost": 70,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/strawberries.jpg"
+    }
+  ],
+  "vegetables": [
+    {
+      "id": "v1",
+      "name": "Broccoli",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/broccoli.jpg"
+    },
+    {
+      "id": "v2",
+      "name": "Cabbage",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/cabbage.jpg"
+    },
+    {
+      "id": "v3",
+      "name": "Carrot",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/carrot.jpg"
+    },
+    {
+      "id": "v4",
+      "name": "Cauliflower",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/cauliflower.jpg"
+    },
+    {
+      "id": "v5",
+      "name": "Okra",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/okra.jpg"
+    },
+    {
+      "id": "v6",
+      "name": "Onion",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/onion.jpg"
+    },
+    {
+      "id": "v7",
+      "name": "Potato",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/potato.jpg"
+    },
+    {
+      "id": "v8",
+      "name": "Radish",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/radish.jpg"
+    },
+    {
+      "id": "v9",
+      "name": "Spinach",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/spinach.jpg"
+    },
+    {
+      "id": "v10",
+      "name": "Sweet Corn",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/sweet_corn.jpg"
+    },
+    {
+      "id": "v11",
+      "name": "Sweet Potato",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/sweet_potato.jpg"
+    },
+    {
+      "id": "v12",
+      "name": "Basil",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/basil.jpg"
+    },
+    {
+      "id": "v13",
+      "name": "Peas",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/garden_pea.jpg"
+    },
+    {
+      "id": "v14",
+      "name": "Garlic",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/garlic.jpg"
+    },
+    {
+      "id": "v15",
+      "name": "Ginger",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/ginger.jpg"
+    },
+    {
+      "id": "v16",
+      "name": "Beans",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/green_beans.jpg"
+    },
+    {
+      "id": "v17",
+      "name": "Mint",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/mint.jpg"
+    },
+    {
+      "id": "v18",
+      "name": "Lettuce",
+      "cost": 40,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/lettuce.jpg"
+    }
+  ],
+  "states": [
+    {
+      "code": "AN",
+      "name": "Andaman and Nicobar Islands"
+    },
+    {
+      "code": "AP",
+      "name": "Andhra Pradesh"
+    },
+    {
+      "code": "AR",
+      "name": "Arunachal Pradesh"
+    },
+    {
+      "code": "AS",
+      "name": "Assam"
+    },
+    {
+      "code": "BR",
+      "name": "Bihar"
+    },
+    {
+      "code": "CG",
+      "name": "Chandigarh"
+    },
+    {
+      "code": "CH",
+      "name": "Chhattisgarh"
+    },
+    {
+      "code": "DN",
+      "name": "Dadra and Nagar Haveli"
+    },
+    {
+      "code": "DD",
+      "name": "Daman and Diu"
+    },
+    {
+      "code": "DL",
+      "name": "Delhi"
+    },
+    {
+      "code": "GA",
+      "name": "Goa"
+    },
+    {
+      "code": "GJ",
+      "name": "Gujarat"
+    },
+    {
+      "code": "HR",
+      "name": "Haryana"
+    },
+    {
+      "code": "HP",
+      "name": "Himachal Pradesh"
+    },
+    {
+      "code": "JK",
+      "name": "Jammu and Kashmir"
+    },
+    {
+      "code": "JH",
+      "name": "Jharkhand"
+    },
+    {
+      "code": "KA",
+      "name": "Karnataka"
+    },
+    {
+      "code": "KL",
+      "name": "Kerala"
+    },
+    {
+      "code": "LA",
+      "name": "Ladakh"
+    },
+    {
+      "code": "LD",
+      "name": "Lakshadweep"
+    },
+    {
+      "code": "MP",
+      "name": "Madhya Pradesh"
+    },
+    {
+      "code": "MH",
+      "name": "Maharashtra"
+    },
+    {
+      "code": "MN",
+      "name": "Manipur"
+    },
+    {
+      "code": "ML",
+      "name": "Meghalaya"
+    },
+    {
+      "code": "MZ",
+      "name": "Mizoram"
+    },
+    {
+      "code": "NL",
+      "name": "Nagaland"
+    },
+    {
+      "code": "OR",
+      "name": "Odisha"
+    },
+    {
+      "code": "PY",
+      "name": "Puducherry"
+    },
+    {
+      "code": "PB",
+      "name": "Punjab"
+    },
+    {
+      "code": "RJ",
+      "name": "Rajasthan"
+    },
+    {
+      "code": "SK",
+      "name": "Sikkim"
+    },
+    {
+      "code": "TN",
+      "name": "Tamil Nadu"
+    },
+    {
+      "code": "TS",
+      "name": "Telangana"
+    },
+    {
+      "code": "TR",
+      "name": "Tripura"
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh"
+    },
+    {
+      "code": "UK",
+      "name": "Uttarakhand"
+    },
+    {
+      "code": "WB",
+      "name": "West Bengal"
+    }
+  ],
+  "orders": [
+    {
+      "products": [
+        {
+          "id": "v1",
+          "name": "Broccoli",
+          "cost": 40,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/vegetable/broccoli.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "v2",
+          "name": "Cabbage",
+          "cost": 40,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/vegetable/cabbage.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "v3",
+          "name": "Carrot",
+          "cost": 40,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/vegetable/carrot.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        }
+      ],
+      "shipping": {
+        "firstName": "test",
+        "lastName": "test",
+        "phoneNumber": "9052643148",
+        "address": "test",
+        "apartment": "",
+        "city": "test",
+        "state": "Haryana",
+        "postalCode": "909090"
+      },
+      "billing": {
+        "firstName": "test",
+        "lastName": "test",
+        "phoneNumber": "9052643148",
+        "address": "test",
+        "apartment": "",
+        "city": "test",
+        "state": "Haryana",
+        "postalCode": "909090"
+      },
+      "email": "test@test.com",
+      "id": 1
+    },
+    {
+      "products": [
+        {
+          "id": "f1",
+          "name": "Banana",
+          "cost": 30,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/fruit/banana.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "f2",
+          "name": "Apricot",
+          "cost": 70,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/fruit/apricot.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "f3",
+          "name": "Blacberry",
+          "cost": 34,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/fruit/blackberry.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "f5",
+          "name": "Cherry",
+          "cost": 20,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/fruit/cherry.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "f9",
+          "name": "Lychee",
+          "cost": 90,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/fruit/lychee.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        },
+        {
+          "id": "f13",
+          "name": "Peach",
+          "cost": 40,
+          "unit": "kg",
+          "imageUrl": "assets/img/e-market/fruit/peach.jpg",
+          "quantity": 1,
+          "noOfItems": 1
+        }
+      ],
+      "shipping": {
+        "firstName": "test",
+        "lastName": "Sirikonda",
+        "phoneNumber": "9052643148",
+        "address": "4-2-120 Mochigally",
+        "apartment": "asf",
+        "city": "test",
+        "state": "Gujarat",
+        "postalCode": "504001"
+      },
+      "billing": {
+        "firstName": "test",
+        "lastName": "Sirikonda",
+        "phoneNumber": "9052643148",
+        "address": "4-2-120 Mochigally",
+        "apartment": "asf",
+        "city": "test",
+        "state": "Gujarat",
+        "postalCode": "504001"
+      },
+      "email": "test@test.com",
+      "id": 2
+    }
+  ],
+  "marketLogin": [
+    {
+      "firstName": "prashanth",
+      "lastName": "Kumar",
+      "email": "test@test.com",
+      "password": "Test123",
+      "id": 1
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test123@test.com",
+      "password": "123",
+      "id": 2
+    }
   ]
 }
