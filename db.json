@@ -25,12 +25,6 @@
   ],
   "payees": [
     {
-      "id": 1,
-      "name": "Abhilash",
-      "accountNumber": 12341234234,
-      "bank": "Andhra Bank"
-    },
-    {
       "name": "Pawan",
       "accountNumber": "0025659896",
       "bank": "STATE BANK OF INDIA",
@@ -909,6 +903,141 @@
       "email": "test123@test.com",
       "password": "123",
       "id": 2
+    }
+  ],
+  "jobs":  [
+    {
+    "id": 1,
+    "title": "Website developer",
+    "description": "Need a developer to build the website using Angular, HTML and CSS.",
+    "status": "Active",
+    "budget": "500",
+    "budgetType": "hour",
+    "postedOn": "15/Mar/2022",
+    "skills": [
+      "Angular", "HTML", "CSS"
+    ],
+    "estimatedHours": "100",
+    "clientId": "",
+    "jobType": "full-time",
+    "applicants": 2
+  },{
+    "id": 2,
+    "title": "Full stack developer",
+    "description": "Looking for an experience full stack developer to develop a website for my restaurant.",
+    "status": "Active",
+    "budget": "40",
+    "budgetType": "hour",
+    "postedOn": "15/Mar/2022",
+    "skills": [
+      "React", "Node", "MongoDb"
+    ],
+    "estimatedHours": "70",
+    "clientId": "",
+    "jobType": "full-time",
+    "applicants": 25
+  },{
+    "id": 3,
+    "title": "Front end developer",
+    "description": "Looking for an highly skilled front end developer to develop a website.",
+    "status": "Active",
+    "budget": "5000",
+    "budgetType": "Fixed",
+    "postedOn": "15/Sep/2021",
+    "skills": [
+      "HTML", "CSS", "Javascript"
+    ],
+    "estimatedHours": "40",
+    "clientId": "",
+    "jobType": "full-time",
+    "applicants": 122
+  },{
+    "id": 4,
+    "title": "Wordpress Developer",
+    "description": "Looking for an wordpress developer to make some changes to the existing website",
+    "status": "Active",
+    "budget": "15",
+    "budgetType": "hour",
+    "postedOn": "31/Jan/2022",
+    "skills": [
+      "Wordpress"
+    ],
+    "estimatedHours": "20",
+    "clientId": "",
+    "jobType": "part-time",
+    "applicants": 459
+  }
+  ],
+  "freelancers": [
+    {
+      "id": 1,
+      "name": "Michell D",
+      "title": "UI/UX Designer",
+      "country": "Australia",
+      "rating": 4.3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dignissimos iure provident sapiente sunt voluptatem? Accusamus blanditiis, ex expedita laborum officiis veritatis.",
+      "projectsCompleted": 16,
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "jobType": "Part-Time",
+      "rate": "$30/hr",
+      "reviews": [{
+        "name": "Raja M",
+        "comment": "Nice Job."
+      },{
+        "name": "Pushpa R",
+        "comment": "Good Response. Excellent performance"
+      }]
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "title": "Graphics Designer",
+      "country": "USA",
+      "rating": 4.1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dignissimos iure provident sapiente sunt voluptatem? Accusamus blanditiis, ex expedita laborum officiis veritatis.",
+      "projectsCompleted": 10,
+      "imageUrl": "https://randomuser.me/api/portraits/men/37.jpg",
+      "jobType": "Full-Time",
+      "rate": "$30/hr",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "name": "Will Smith",
+      "title": "Web Developer",
+      "country": "USA",
+      "rating": 3.8,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dignissimos iure provident sapiente sunt voluptatem? Accusamus blanditiis, ex expedita laborum officiis veritatis.",
+      "projectsCompleted": 4,
+      "imageUrl": "https://randomuser.me/api/portraits/men/76.jpg",
+      "jobType": "Part-Time",
+      "rate": "$30/hr",
+      "reviews": [{
+        "name": "Raja M",
+        "comment": "Nice Job."
+      },{
+        "name": "Pushpa R",
+        "comment": "Good Response. Excellent performance"
+      }]
+    },
+    {
+      "id": 4,
+      "name": "Abbey M",
+      "title": "Full stack developer",
+      "country": "New Zealand",
+      "rating": 4.7,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae dignissimos iure provident sapiente sunt voluptatem? Accusamus blanditiis, ex expedita laborum officiis veritatis.",
+      "projectsCompleted": 0,
+      "imageUrl": "https://randomuser.me/api/portraits/women/29.jpg",
+      "jobType": "Part-Time",
+      "rate": "$30/hr",
+      "reviews": [{
+        "name": "Raja M",
+        "comment": "Nice Job."
+      },{
+        "name": "Pushpa R",
+        "comment": "Good Response. Excellent performance"
+      }]
     }
   ]
 }
