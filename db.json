@@ -907,67 +907,77 @@
   ],
   "jobs":  [
     {
-    "id": 1,
-    "title": "Website developer",
-    "description": "Need a developer to build the website using Angular, HTML and CSS.",
-    "status": "Active",
-    "budget": "500",
-    "budgetType": "hour",
-    "postedOn": "15/Mar/2022",
-    "skills": [
-      "Angular", "HTML", "CSS"
-    ],
-    "estimatedHours": "100",
-    "clientId": "",
-    "jobType": "full-time",
-    "applicants": 2
-  },{
-    "id": 2,
-    "title": "Full stack developer",
-    "description": "Looking for an experience full stack developer to develop a website for my restaurant.",
-    "status": "Active",
-    "budget": "40",
-    "budgetType": "hour",
-    "postedOn": "15/Mar/2022",
-    "skills": [
-      "React", "Node", "MongoDb"
-    ],
-    "estimatedHours": "70",
-    "clientId": "",
-    "jobType": "full-time",
-    "applicants": 25
-  },{
-    "id": 3,
-    "title": "Front end developer",
-    "description": "Looking for an highly skilled front end developer to develop a website.",
-    "status": "Active",
-    "budget": "5000",
-    "budgetType": "Fixed",
-    "postedOn": "15/Sep/2021",
-    "skills": [
-      "HTML", "CSS", "Javascript"
-    ],
-    "estimatedHours": "40",
-    "clientId": "",
-    "jobType": "full-time",
-    "applicants": 122
-  },{
-    "id": 4,
-    "title": "Wordpress Developer",
-    "description": "Looking for an wordpress developer to make some changes to the existing website",
-    "status": "Active",
-    "budget": "15",
-    "budgetType": "hour",
-    "postedOn": "31/Jan/2022",
-    "skills": [
-      "Wordpress"
-    ],
-    "estimatedHours": "20",
-    "clientId": "",
-    "jobType": "part-time",
-    "applicants": 459
-  }
+      "id": 1,
+      "title": "Website developer",
+      "description": "Need a developer to build the website using Angular, HTML and CSS.",
+      "status": "Active",
+      "salary": "60k - 80k / month",
+      "postedOn": "15/Mar/2022",
+      "skills": [
+        "Angular", "HTML", "CSS"
+      ],
+      "clientId": "",
+      "jobType": "full-time",
+      "applicants": 2,
+      "type": "Remote",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "company": "Staker Parson Materials & Construction"
+    },{
+      "id": 2,
+      "title": "Full stack developer",
+      "description": "Looking for an experience full stack developer to develop a website for my restaurant.",
+      "status": "Active",
+      "salary": "120k - 100k / month",
+      "postedOn": "15/Mar/2022",
+      "skills": [
+        "React", "Node", "MongoDb"
+      ],
+      "clientId": "",
+      "jobType": "full-time",
+      "applicants": 25,
+      "type": "Remote",
+      "city": "Mumbai",
+      "state": "Maharastra",
+      "company": "Staker Parson Materials & Construction"
+    },{
+      "id": 3,
+      "title": "Front end developer",
+      "description": "Looking for an highly skilled front end developer to develop a website.",
+      "status": "Active",
+      "postedOn": "15/Sep/2021",
+      "salary": "80k - 100k / month",
+      "skills": [
+        "HTML", "CSS", "Javascript"
+      ],
+      "clientId": "",
+      "jobType": "full-time",
+      "applicants": 122,
+      "type": "Onsite",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "company": "Staker Parson Materials & Construction"
+    },{
+      "id": 4,
+      "title": "Wordpress Developer",
+      "description": "Looking for an wordpress developer to make some changes to the existing website",
+      "status": "Active",
+      "salary": "30k - 40k / month",
+      "postedOn": "31/Jan/2022",
+      "skills": [
+        "Wordpress"
+      ],
+      "estimatedHours": "20",
+      "clientId": "",
+      "jobType": "part-time",
+      "applicants": 459,
+      "type": "Remote",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "company": "Staker Parson Materials & Construction"
+    }
   ],
+  "savedJobs": [],
   "freelancers": [
     {
       "id": 1,
