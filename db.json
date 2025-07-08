@@ -510,7 +510,7 @@
       "name": "Okra",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/okra.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/okra.png"
     },
     {
       "id": "v6",
@@ -538,7 +538,7 @@
       "name": "Spinach",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/spinach.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/spinach.png"
     },
     {
       "id": "v10",
@@ -552,7 +552,7 @@
       "name": "Sweet Potato",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/sweet_potato.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/sweet-potato.png"
     },
     {
       "id": "v12",
@@ -566,21 +566,21 @@
       "name": "Peas",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/garden_pea.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/garden_pea.png"
     },
     {
       "id": "v14",
       "name": "Garlic",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/garlic.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/garlic.png"
     },
     {
       "id": "v15",
       "name": "Ginger",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/ginger.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/ginger.png"
     },
     {
       "id": "v16",
@@ -594,14 +594,14 @@
       "name": "Mint",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/mint.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/mint.png"
     },
     {
       "id": "v18",
       "name": "Lettuce",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/lettuce.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/lettuce.png"
     }
   ],
   "states": [
