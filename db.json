@@ -340,7 +340,7 @@
       "name": "Banana",
       "cost": 30,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/banana.jpg"
+      "imageUrl": "assets/img/e-market/fruit/banana.png"
     },
     {
       "id": "f2",
@@ -361,7 +361,7 @@
       "name": "Blueberry",
       "cost": 76,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/blueberry.jpg"
+      "imageUrl": "assets/img/e-market/fruit/blueberry.png"
     },
     {
       "id": "f5",
@@ -375,21 +375,21 @@
       "name": "Grapes",
       "cost": 70,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/grape.jpg"
+      "imageUrl": "assets/img/e-market/fruit/grapes.png"
     },
     {
       "id": "f7",
       "name": "Guava",
       "cost": 60,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/guava.jpg"
+      "imageUrl": "assets/img/e-market/fruit/guava.png"
     },
     {
       "id": "f8",
       "name": "Kiwi",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/kiwi.jpg"
+      "imageUrl": "assets/img/e-market/fruit/kiwi.png"
     },
     {
       "id": "f9",
@@ -403,7 +403,7 @@
       "name": "Water Melon",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/watermelon.jpg"
+      "imageUrl": "assets/img/e-market/fruit/watermelon.png"
     },
     {
       "id": "f11",
@@ -417,28 +417,28 @@
       "name": "Orange",
       "cost": 35,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/orange.jpg"
+      "imageUrl": "assets/img/e-market/fruit/orange.png"
     },
     {
       "id": "f13",
       "name": "Peach",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/peach.jpg"
+      "imageUrl": "assets/img/e-market/fruit/peach.png"
     },
     {
       "id": "f14",
       "name": "Pear",
       "cost": 55,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/pear.jpg"
+      "imageUrl": "assets/img/e-market/fruit/pear.png"
     },
     {
       "id": "f15",
       "name": "Pineapple",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/pineapple.jpg"
+      "imageUrl": "assets/img/e-market/fruit/pineapple.png"
     },
     {
       "id": "f16",
@@ -466,14 +466,14 @@
       "name": "Apple",
       "cost": 100,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/apple.jpg"
+      "imageUrl": "assets/img/e-market/fruit/apple.png"
     },
     {
       "id": "f20",
       "name": "Strawberry",
       "cost": 70,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/strawberries.jpg"
+      "imageUrl": "assets/img/e-market/fruit/strawberry.png"
     }
   ],
   "vegetables": [
@@ -482,28 +482,28 @@
       "name": "Broccoli",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/broccoli.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/broccoli.png"
     },
     {
       "id": "v2",
       "name": "Cabbage",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/cabbage.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/cabbage.png"
     },
     {
       "id": "v3",
       "name": "Carrot",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/carrot.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/carrot.png"
     },
     {
       "id": "v4",
       "name": "Cauliflower",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/cauliflower.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/cauliflower.png"
     },
     {
       "id": "v5",
@@ -517,21 +517,21 @@
       "name": "Onion",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/onion.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/onion.png"
     },
     {
       "id": "v7",
       "name": "Potato",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/potato.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/potato.png"
     },
     {
       "id": "v8",
       "name": "Radish",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/radish.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/radish.png"
     },
     {
       "id": "v9",
@@ -545,7 +545,7 @@
       "name": "Sweet Corn",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/sweet_corn.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/corn.png"
     },
     {
       "id": "v11",
@@ -559,7 +559,7 @@
       "name": "Basil",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/basil.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/basil.png"
     },
     {
       "id": "v13",
@@ -587,7 +587,7 @@
       "name": "Beans",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/green_beans.jpg"
+      "imageUrl": "assets/img/e-market/vegetable/beans.png"
     },
     {
       "id": "v17",
