@@ -29,6 +29,12 @@
       "accountNumber": "0025659896",
       "bank": "STATE BANK OF INDIA",
       "id": 2
+    },
+    {
+      "name": "Sonia",
+      "accountNumber": "12345678",
+      "bank": "ICICI Bank",
+      "id": 3
     }
   ],
   "transactions": [
@@ -271,7 +277,7 @@
       "name": "Banana",
       "cost": 30,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/banana.jpg",
+      "imageUrl": "assets/img/e-market/fruit/banana.png",
       "available": true,
       "fact": "Bananas are a healthy source of fiber, potassium, vitamin B6, vitamin C, and various antioxidants and phytonutrients."
     },
@@ -280,7 +286,7 @@
       "name": "Kiwi",
       "cost": 60,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/kiwi.jpg",
+      "imageUrl": "assets/img/e-market/fruit/kiwi.png",
       "available": true,
       "fact": "It is particularly rich in vitamin C and vitamin K"
     },
@@ -289,9 +295,17 @@
       "name": "Broccoli",
       "cost": 50,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/broccoli.jpg",
+      "imageUrl": "assets/img/e-market/vegetable/broccoli.png",
       "available": true,
       "fact": "Broccoli is a good source of fibre and protein, and contains iron, potassium, calcium, selenium and magnesium as well as the vitamins A, C, E, K and a good array of B vitamins including folic acid."
+    },{
+      "id": "4",
+      "name": "Blueberry",
+      "cost": 76,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/fruit/blueberry.png",
+      "available": true,
+      "fact" : "A small, round, blue-purple fruit known for its sweet-tart flavor and high antioxidant content. Commonly eaten fresh, in desserts, or as a healthy snack."
     }
   ],
   "reviews": [
@@ -347,14 +361,14 @@
       "name": "Apricot",
       "cost": 70,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/apricot.jpg"
+      "imageUrl": "assets/img/e-market/fruit/apricot.png"
     },
     {
       "id": "f3",
-      "name": "Blacberry",
+      "name": "Papaya",
       "cost": 34,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/blackberry.jpg"
+      "imageUrl": "assets/img/e-market/fruit/papaya.png"
     },
     {
       "id": "f4",
@@ -368,7 +382,7 @@
       "name": "Cherry",
       "cost": 20,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/cherry.jpg"
+      "imageUrl": "assets/img/e-market/fruit/cherry.png"
     },
     {
       "id": "f6",
@@ -396,7 +410,7 @@
       "name": "Lychee",
       "cost": 90,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/lychee.jpg"
+      "imageUrl": "assets/img/e-market/fruit/lychee.png"
     },
     {
       "id": "f10",
@@ -410,7 +424,7 @@
       "name": "Rock Melon",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/melon-rock.jpg"
+      "imageUrl": "assets/img/e-market/fruit/melon-rock.png"
     },
     {
       "id": "f12",
@@ -445,21 +459,21 @@
       "name": "Plum",
       "cost": 86,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/plum.jpg"
+      "imageUrl": "assets/img/e-market/fruit/plum.png"
     },
     {
       "id": "f17",
       "name": "Pomegranate",
       "cost": 75,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/pomegranate.jpg"
+      "imageUrl": "assets/img/e-market/fruit/pomegranate.png"
     },
     {
       "id": "f18",
       "name": "Rasberry",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/fruit/raspberry.jpg"
+      "imageUrl": "assets/img/e-market/fruit/raspberry.png"
     },
     {
       "id": "f19",
@@ -598,10 +612,17 @@
     },
     {
       "id": "v18",
-      "name": "Lettuce",
+      "name": "Tomato",
       "cost": 40,
       "unit": "kg",
-      "imageUrl": "assets/img/e-market/vegetable/lettuce.png"
+      "imageUrl": "assets/img/e-market/vegetable/tomato.png"
+    },
+    {
+      "id": "v18",
+      "name": "Eggplant",
+      "cost": 50,
+      "unit": "kg",
+      "imageUrl": "assets/img/e-market/vegetable/eggplant.png"
     }
   ],
   "states": [
@@ -815,7 +836,7 @@
           "name": "Banana",
           "cost": 30,
           "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/banana.jpg",
+          "imageUrl": "assets/img/e-market/fruit/banana.png",
           "quantity": 1,
           "noOfItems": 1
         },
@@ -824,16 +845,16 @@
           "name": "Apricot",
           "cost": 70,
           "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/apricot.jpg",
+          "imageUrl": "assets/img/e-market/fruit/apricot.png",
           "quantity": 1,
           "noOfItems": 1
         },
         {
           "id": "f3",
-          "name": "Blacberry",
+          "name": "Papaya",
           "cost": 34,
           "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/blackberry.jpg",
+          "imageUrl": "assets/img/e-market/fruit/papaya.png",
           "quantity": 1,
           "noOfItems": 1
         },
@@ -842,7 +863,7 @@
           "name": "Cherry",
           "cost": 20,
           "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/cherry.jpg",
+          "imageUrl": "assets/img/e-market/fruit/cherry.png",
           "quantity": 1,
           "noOfItems": 1
         },
@@ -851,7 +872,7 @@
           "name": "Lychee",
           "cost": 90,
           "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/lychee.jpg",
+          "imageUrl": "assets/img/e-market/fruit/lychee.png",
           "quantity": 1,
           "noOfItems": 1
         },
@@ -860,7 +881,7 @@
           "name": "Peach",
           "cost": 40,
           "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/peach.jpg",
+          "imageUrl": "assets/img/e-market/fruit/peach.png",
           "quantity": 1,
           "noOfItems": 1
         }
@@ -905,7 +926,7 @@
       "id": 2
     }
   ],
-  "jobs":  [
+  "jobs": [
     {
       "id": 1,
       "title": "Website developer",
@@ -914,7 +935,9 @@
       "salary": "60k - 80k / month",
       "postedOn": "15/Mar/2022",
       "skills": [
-        "Angular", "HTML", "CSS"
+        "Angular",
+        "HTML",
+        "CSS"
       ],
       "clientId": "",
       "jobType": "full-time",
@@ -923,7 +946,8 @@
       "city": "Bengaluru",
       "state": "Karnataka",
       "company": "Staker Parson Materials & Construction"
-    },{
+    },
+    {
       "id": 2,
       "title": "Full stack developer",
       "description": "Looking for an experience full stack developer to develop a website for my restaurant.",
@@ -931,7 +955,9 @@
       "salary": "120k - 100k / month",
       "postedOn": "15/Mar/2022",
       "skills": [
-        "React", "Node", "MongoDb"
+        "React",
+        "Node",
+        "MongoDb"
       ],
       "clientId": "",
       "jobType": "full-time",
@@ -940,7 +966,8 @@
       "city": "Mumbai",
       "state": "Maharastra",
       "company": "Staker Parson Materials & Construction"
-    },{
+    },
+    {
       "id": 3,
       "title": "Front end developer",
       "description": "Looking for an highly skilled front end developer to develop a website.",
@@ -948,7 +975,9 @@
       "postedOn": "15/Sep/2021",
       "salary": "80k - 100k / month",
       "skills": [
-        "HTML", "CSS", "Javascript"
+        "HTML",
+        "CSS",
+        "Javascript"
       ],
       "clientId": "",
       "jobType": "full-time",
@@ -957,7 +986,8 @@
       "city": "Bengaluru",
       "state": "Karnataka",
       "company": "Staker Parson Materials & Construction"
-    },{
+    },
+    {
       "id": 4,
       "title": "Wordpress Developer",
       "description": "Looking for an wordpress developer to make some changes to the existing website",
@@ -990,13 +1020,16 @@
       "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
       "jobType": "Part-Time",
       "rate": "$30/hr",
-      "reviews": [{
-        "name": "Raja M",
-        "comment": "Nice Job."
-      },{
-        "name": "Pushpa R",
-        "comment": "Good Response. Excellent performance"
-      }]
+      "reviews": [
+        {
+          "name": "Raja M",
+          "comment": "Nice Job."
+        },
+        {
+          "name": "Pushpa R",
+          "comment": "Good Response. Excellent performance"
+        }
+      ]
     },
     {
       "id": 2,
@@ -1022,13 +1055,16 @@
       "imageUrl": "https://randomuser.me/api/portraits/men/76.jpg",
       "jobType": "Part-Time",
       "rate": "$30/hr",
-      "reviews": [{
-        "name": "Raja M",
-        "comment": "Nice Job."
-      },{
-        "name": "Pushpa R",
-        "comment": "Good Response. Excellent performance"
-      }]
+      "reviews": [
+        {
+          "name": "Raja M",
+          "comment": "Nice Job."
+        },
+        {
+          "name": "Pushpa R",
+          "comment": "Good Response. Excellent performance"
+        }
+      ]
     },
     {
       "id": 4,
@@ -1041,13 +1077,16 @@
       "imageUrl": "https://randomuser.me/api/portraits/women/29.jpg",
       "jobType": "Part-Time",
       "rate": "$30/hr",
-      "reviews": [{
-        "name": "Raja M",
-        "comment": "Nice Job."
-      },{
-        "name": "Pushpa R",
-        "comment": "Good Response. Excellent performance"
-      }]
+      "reviews": [
+        {
+          "name": "Raja M",
+          "comment": "Nice Job."
+        },
+        {
+          "name": "Pushpa R",
+          "comment": "Good Response. Excellent performance"
+        }
+      ]
     }
   ]
 }
