@@ -778,143 +778,148 @@
   ],
   "orders": [
     {
-      "orderId": "POS12345",
-      "orderedOn": "23/05/2022",
-      "status": "Delivered",
-      "products": [
+      "id": 1,
+      "orders": [
         {
-          "id": "v1",
-          "name": "Broccoli",
-          "cost": 40,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/vegetable/broccoli.jpg",
-          "quantity": 1,
-          "noOfItems": 1
+          "orderId": "POS12345",
+          "orderedOn": "05/23/2025",
+          "status": "Delivered",
+          "products": [
+            {
+              "id": "v1",
+              "name": "Broccoli",
+              "cost": 40,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/vegetable/broccoli.png",
+              "quantity": 1,
+              "noOfItems": 1
+            },
+            {
+              "id": "v2",
+              "name": "Cabbage",
+              "cost": 40,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/vegetable/cabbage.png",
+              "quantity": 2,
+              "noOfItems": 1
+            },
+            {
+              "id": "v3",
+              "name": "Carrot",
+              "cost": 40,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/vegetable/carrot.png",
+              "quantity": 1,
+              "noOfItems": 1
+            }
+          ],
+          "shipping": {
+            "firstName": "test",
+            "lastName": "test",
+            "phoneNumber": "9052643148",
+            "address": "test",
+            "apartment": "",
+            "city": "test",
+            "state": "Haryana",
+            "postalCode": "909090"
+          },
+          "billing": {
+            "firstName": "test",
+            "lastName": "test",
+            "phoneNumber": "9052643148",
+            "address": "test",
+            "apartment": "",
+            "city": "test",
+            "state": "Haryana",
+            "postalCode": "909090"
+          },
+          "email": "test@test.com",
+          "id": 1
         },
         {
-          "id": "v2",
-          "name": "Cabbage",
-          "cost": 40,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/vegetable/cabbage.jpg",
-          "quantity": 2,
-          "noOfItems": 1
-        },
-        {
-          "id": "v3",
-          "name": "Carrot",
-          "cost": 40,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/vegetable/carrot.jpg",
-          "quantity": 1,
-          "noOfItems": 1
+          "orderId": "POS123344",
+          "orderedOn": "07/28/2025",
+          "status": "Pending",
+          "products": [
+            {
+              "id": "f1",
+              "name": "Banana",
+              "cost": 30,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/fruit/banana.png",
+              "quantity": 1,
+              "noOfItems": 1
+            },
+            {
+              "id": "f2",
+              "name": "Apricot",
+              "cost": 70,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/fruit/apricot.png",
+              "quantity": 1,
+              "noOfItems": 1
+            },
+            {
+              "id": "f3",
+              "name": "Papaya",
+              "cost": 34,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/fruit/papaya.png",
+              "quantity": 1,
+              "noOfItems": 1
+            },
+            {
+              "id": "f5",
+              "name": "Cherry",
+              "cost": 20,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/fruit/cherry.png",
+              "quantity": 1,
+              "noOfItems": 1
+            },
+            {
+              "id": "f9",
+              "name": "Lychee",
+              "cost": 90,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/fruit/lychee.png",
+              "quantity": 1,
+              "noOfItems": 1
+            },
+            {
+              "id": "f13",
+              "name": "Peach",
+              "cost": 40,
+              "unit": "kg",
+              "imageUrl": "assets/img/e-market/fruit/peach.png",
+              "quantity": 1,
+              "noOfItems": 1
+            }
+          ],
+          "shipping": {
+            "firstName": "test",
+            "lastName": "Sirikonda",
+            "phoneNumber": "9052643148",
+            "address": "4-2-120 Mochigally",
+            "apartment": "asf",
+            "city": "test",
+            "state": "Gujarat",
+            "postalCode": "504001"
+          },
+          "billing": {
+            "firstName": "test",
+            "lastName": "Sirikonda",
+            "phoneNumber": "9052643148",
+            "address": "4-2-120 Mochigally",
+            "apartment": "asf",
+            "city": "test",
+            "state": "Gujarat",
+            "postalCode": "504001"
+          },
+          "email": "test@test.com",
+          "id": 2
         }
-      ],
-      "shipping": {
-        "firstName": "test",
-        "lastName": "test",
-        "phoneNumber": "9052643148",
-        "address": "test",
-        "apartment": "",
-        "city": "test",
-        "state": "Haryana",
-        "postalCode": "909090"
-      },
-      "billing": {
-        "firstName": "test",
-        "lastName": "test",
-        "phoneNumber": "9052643148",
-        "address": "test",
-        "apartment": "",
-        "city": "test",
-        "state": "Haryana",
-        "postalCode": "909090"
-      },
-      "email": "test@test.com",
-      "id": 1
-    },
-    {
-      "orderId": "POS123344",
-      "orderedOn": "28/07/2025",
-      "status": "Pending",
-      "products": [
-        {
-          "id": "f1",
-          "name": "Banana",
-          "cost": 30,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/banana.png",
-          "quantity": 1,
-          "noOfItems": 1
-        },
-        {
-          "id": "f2",
-          "name": "Apricot",
-          "cost": 70,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/apricot.png",
-          "quantity": 1,
-          "noOfItems": 1
-        },
-        {
-          "id": "f3",
-          "name": "Papaya",
-          "cost": 34,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/papaya.png",
-          "quantity": 1,
-          "noOfItems": 1
-        },
-        {
-          "id": "f5",
-          "name": "Cherry",
-          "cost": 20,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/cherry.png",
-          "quantity": 1,
-          "noOfItems": 1
-        },
-        {
-          "id": "f9",
-          "name": "Lychee",
-          "cost": 90,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/lychee.png",
-          "quantity": 1,
-          "noOfItems": 1
-        },
-        {
-          "id": "f13",
-          "name": "Peach",
-          "cost": 40,
-          "unit": "kg",
-          "imageUrl": "assets/img/e-market/fruit/peach.png",
-          "quantity": 1,
-          "noOfItems": 1
-        }
-      ],
-      "shipping": {
-        "firstName": "test",
-        "lastName": "Sirikonda",
-        "phoneNumber": "9052643148",
-        "address": "4-2-120 Mochigally",
-        "apartment": "asf",
-        "city": "test",
-        "state": "Gujarat",
-        "postalCode": "504001"
-      },
-      "billing": {
-        "firstName": "test",
-        "lastName": "Sirikonda",
-        "phoneNumber": "9052643148",
-        "address": "4-2-120 Mochigally",
-        "apartment": "asf",
-        "city": "test",
-        "state": "Gujarat",
-        "postalCode": "504001"
-      },
-      "email": "test@test.com",
-      "id": 2
+      ]
     }
   ],
   "marketLogin": [
@@ -945,6 +950,26 @@
       "email": "demo1@test.com",
       "password": "123",
       "id": 4
+    }
+  ],
+  "userAddress": [
+    {
+      "id": 1,
+      "address": [
+        {
+          "addressId": "add1",
+          "firstName": "Prashanth",
+          "lastName": "Kumar",
+          "email": "test@test.com",
+          "phone": "1231231231",
+          "street": "60, Mani Bhuvan, Sadashiv Lane, Off V P Road, Girgaon",
+          "landmark": "",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zipCode": "400004",
+          "default": true
+        }
+      ]
     }
   ],
   "jobs": [
